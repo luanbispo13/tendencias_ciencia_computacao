@@ -1,0 +1,31 @@
+Atividade Prática: Identificando a IA no Cotidiano
+Disciplina: Tendências em Ciência da Computação
+
+Aula 01: Fundamentos de IA e Modelos Generativos
+
+Tecnologia Analisada: Netflix
+
+Estudo de Caso: Netflix
+1. Onde a IA está presente neste app?
+Sistemas de Recomendação Personalizada: Algoritmos de Machine Learning que organizam a interface e ranqueiam o catálogo (exemplos: "Porque você assistiu a...", "Recomendações para você").
+Personalização Visual de Capas (Thumbnails): Seleção preditiva da arte da capa exibida para cada usuário, priorizando imagens e atores que geram maior probabilidade de clique com base no perfil.
+Otimização de Streaming e Codificação de Vídeo: Ajuste preditivo da taxa de bits (bitrate) e compactação inteligente em tempo real para evitar travamentos de acordo com a qualidade da rede.
+
+2. Qual problema ela procura resolver?
+Fadiga de Decisão (Information Overload): Reduz o tempo que o assinante gasta procurando algo no catálogo, mantendo-o engajado e aumentando a retenção.
+Experiência de Transmissão Fluida: Mitiga o tempo de carregamento (buffering) e a perda de qualidade do vídeo.
+
+3. Quais dados provavelmente são utilizados?
+Histórico de Consumo: Filmes e séries assistidos, minutagem consumida, pausas, conteúdos abandonados e avaliações diretas (curtidas e descurtidas).
+Comportamento na Interface: Buscas efetuadas, tempo de permanência navegando por títulos e cliques em trailers ou sinopses.
+Contexto de Uso: Tipo de dispositivo (TV, celular, navegador), horários de acesso e localização geográfica.
+Dados Colaborativos: Padrões agregados de milhões de outros usuários com comportamentos semelhantes.
+
+4. Qual é o benefício direto para o usuário?
+Economia de Tempo e Relevância: Acesso rápido a conteúdos altamente alinhados com o gosto pessoal.
+Qualidade Técnica: Reprodução de vídeo estável e com alta definição, mesmo em redes oscilantes.
+
+5. Existe algum risco ou limitação observável?
+Bolha de Recomendação (Filter Bubble): O algoritmo pode restringir as sugestões aos mesmos tipos de produções, limitando a descoberta de novidades.
+Problema do Início Frio (Cold Start): Usuários ou perfis recém-criados recebem sugestões genéricas até construírem um histórico consistente.
+Poluição de Dados (Garbage In, Garbage Out): Compartilhamento de perfis por várias pessoas mistura padrões comportamentais, gerando recomendações imprecisas.
