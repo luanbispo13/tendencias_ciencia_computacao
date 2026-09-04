@@ -1,0 +1,57 @@
+# Experimento Prático: Comparação de Prompts
+
+Este experimento compara o comportamento de um modelo de linguagem diante de um prompt genérico versus um prompt estruturado com técnicas de engenharia de prompt (Papel, Objetivo, Contexto e Formato).
+
+---
+
+## 1. Testes Práticos
+
+### Teste A: Prompt Genérico
+
+**Prompt Utilizado:**
+
+> O que é Machine Learning?
+
+**Resposta Obtida:**
+
+> Machine Learning, ou Aprendizado de Máquina, é um subcampo da Inteligência Artificial focado no desenvolvimento de algoritmos e modelos estatísticos que permitem aos computadores realizarem tarefas sem instruções explícitas. Em vez de regras fixas, o sistema utiliza grandes volumes de dados de treino para identificar padrões, calcular probabilidades e tomar decisões preditivas ou classificatórias em novos conjuntos de dados. É amplamente utilizado em sistemas de recomendação, visão computacional, processamento de linguagem natural e análise preditiva.
+
+---
+
+### Teste B: Prompt Estruturado (POCF)
+
+**Estrutura da Instrução:**
+
+* **Papel:** Professor paciente e experiente de ciência da computação.
+* **Objetivo:** Explicar o conceito de Machine Learning de maneira didática e intuitiva.
+* **Contexto:** Voltado para iniciantes, utilizando analogia com esportes.
+* **Formato:** Exatamente dois parágrafos claros em língua portuguesa.
+
+**Prompt Utilizado:**
+
+> Atue como um professor experiente e paciente. Explique o conceito de Machine Learning para um estudante iniciante utilizando uma analogia com esportes. Limite a resposta a exatamente 2 parágrafos claros.
+
+**Resposta Obtida:**
+
+> Pense no Aprendizado de Máquina como o treinamento de um jogador de basquete arremessando à cesta. Na programação tradicional, alguém daria uma lista com milhares de instruções rígidas, como o ângulo exato do braço, a força do salto e a velocidade do vento. No Machine Learning, o jogador simplesmente arremessa centenas de bolas: a cada acerto ou erro, o cérebro dele analisa os dados da tentativa anterior, ajusta a mira e aprende sozinho qual é o melhor movimento para acertar a cesta na próxima vez.
+> Nos sistemas computacionais, o processo é idêntico: em vez de escrevermos todas as regras manuais no código, entregamos milhares de exemplos para o algoritmo treinar. Com o tempo e a repetição, a máquina identifica os padrões de acerto e passa a tomar decisões precisas diante de novas jogadas que nunca viu antes.
+
+---
+
+## 2. Comparativo dos Resultados
+
+| Critério | Teste A (Genérico) | Teste B (Estruturado) |
+| --- | --- | --- |
+| **Abordagem** | Abstrata e técnica | Didática e intuitiva |
+| **Público-Alvo** | Indefinido (geral) | Iniciante |
+| **Recursos Didáticos** | Jargões de área | Analogia contextual (basquete) |
+| **Controle de Extensão** | Sem controle explícito | Restrito a 2 parágrafos |
+
+---
+
+## 3. Análise Crítica e Conclusão
+
+A resposta obtida por meio do prompt estruturado foi significativamente mais útil, clara e eficaz para fins de aprendizagem:
+
+* **Eliminação de Ambiguidade:** Enquanto o prompt genérico retornou uma definição técnica comum de enciclopédia, a instrução estruturada direcionou o modelo com precisão ao calibrar tom, analogia e limite de caracteres.
+* **Engenharia de Prompt na Prática:** O resultado comprova o princípio central da interação com LLMs: a precisão e a utilidade da saída dependem diretamente do nível de clareza, contexto e restrições estabelecidos na entrada.
