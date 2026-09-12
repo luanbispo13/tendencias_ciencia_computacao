@@ -3,8 +3,7 @@
 ## Identificação
 - **Nome:** Luan Bispo Silva
 - **Matrícula:** 32635648
-- **Turma:** Ciência da Computação — UDF
-- **Data:** 17/09/2026
+- **Turma:** Ciência da Computação
 - **Disciplina:** Tendências em Ciência da Computação
 - **Professora:** Kadidja Valéria Reginaldo de Oliveira
 - **Ferramenta de IA utilizada:** Google Gemini, modelo Gemini 2.5 Flash
