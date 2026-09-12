@@ -4,9 +4,7 @@
 ## 1. Identificação
 - **Disciplina:** Tendências em Ciências da Computação
 - **Unidade:** I — Fundamentos de IA e Modelos Generativos
-- **Data:** 12/09/2026
 - **Integrantes:** Luan Bispo Silva (32635648)
-- **Valor da atividade:** 0,5 ponto
 - **Ferramenta de IA generativa utilizada:** Google Gemini, modelo Gemini 2.5 Flash
 
 ## 2. Problema escolhido
