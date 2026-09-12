@@ -16,7 +16,7 @@ Este documento apresenta a resolução da Atividade de Fixação da Unidade I �
 
 ## 1. Passo 1: Repositório Criado
 
-* **Nome do Repositório:** `engenharia-de-prompt-fundamentos`
+* **Nome do Repositório:** `unidade1`
 * **Visibilidade:** Pública
 * **Plataforma:** GitHub
 * **Finalidade:** Hospedagem da documentação experimental comparativa entre prompts genéricos e estruturados.
