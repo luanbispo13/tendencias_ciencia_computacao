@@ -87,7 +87,7 @@ A inclusão explícita do **papel**, do **contexto de recepção** e do **format
 
 ## 4. Passo 4: Link de Entrega
 
-* **Link do Repositório GitHub:** `https://github.com/luanbisposilva/engenharia-de-prompt-fundamentos`
+* **Link do Repositório GitHub:** `https://github.com/luanbispo13/tendencias_ciencia_computacao/blob/main/unidade1`
 * **Status da Submissão:** Documentação integrada e pronta para envio via Blackboard UDF.
 
 ---
