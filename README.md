@@ -1,9 +1,10 @@
 # Tendências em Ciência da Computação
 
 **Docente:** Profa. Kadidja Valéria Reginaldo de Oliveira
+
 **Estudante:** Luan Bispo Silva
+
 **RGM:** 32635648
-**IA utilizada nas atividades:** Google Gemini 2.5 Flash
 
 ---
 
